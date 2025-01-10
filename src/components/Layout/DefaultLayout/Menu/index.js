@@ -1,6 +1,6 @@
 import images from '~/assets/images';
 import React from 'react';
-import { BrowserRouter as Router, Route, Link, useLocation } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 
 function Menu() {
     const location = useLocation();
@@ -20,7 +20,7 @@ function Menu() {
                     </span>
                     <span className="app-brand-text demo menu-text fw-bold">AMS</span>
                 </a>
-                <a href="#" className="layout-menu-toggle menu-link text-large ms-auto">
+                <a href="/" className="layout-menu-toggle menu-link text-large ms-auto">
                     <i className="ti menu-toggle-icon d-none d-xl-block ti-sm align-middle" />
                     <i className="ti ti-x d-block d-xl-none ti-sm align-middle" />
                 </a>
@@ -51,7 +51,7 @@ function Menu() {
                     </a>
                 </li>
                 <li className="menu-item">
-                    <a href="#" className="menu-link menu-toggle">
+                    <a href="/" className="menu-link menu-toggle">
                         <i className="menu-icon tf-icons ti ti-assembly" />
                         <div data-i18n="Manager Asset">Manager Asset </div>
                     </a>
@@ -84,43 +84,43 @@ function Menu() {
                     <span className="menu-header-text">System</span>
                 </li>
                 <li className="menu-item">
-                    <a href="#" className="menu-link menu-toggle">
+                    <a href="/" className="menu-link menu-toggle">
                         <i className="menu-icon tf-icons ti ti-users" />
                         <div data-i18n="Users">Users</div>
                     </a>
                     <ul className="menu-sub">
                         <li className="menu-item">
-                            <a href="app-user-list.html" className="menu-link">
+                            <a href="/" className="menu-link">
                                 <div data-i18n="List">List</div>
                             </a>
                         </li>
                         <li className="menu-item">
-                            <a href="#" className="menu-link menu-toggle">
+                            <a href="/" className="menu-link menu-toggle">
                                 <div data-i18n="View">View</div>
                             </a>
                             <ul className="menu-sub">
                                 <li className="menu-item">
-                                    <a href="app-user-view-account.html" className="menu-link">
+                                    <a href="/" className="menu-link">
                                         <div data-i18n="Account">Account</div>
                                     </a>
                                 </li>
                                 <li className="menu-item">
-                                    <a href="app-user-view-security.html" className="menu-link">
+                                    <a href="/" className="menu-link">
                                         <div data-i18n="Security">Security</div>
                                     </a>
                                 </li>
                                 <li className="menu-item">
-                                    <a href="app-user-view-billing.html" className="menu-link">
+                                    <a href="/" className="menu-link">
                                         <div data-i18n="Billing & Plans">Billing &amp; Plans</div>
                                     </a>
                                 </li>
                                 <li className="menu-item">
-                                    <a href="app-user-view-notifications.html" className="menu-link">
+                                    <a href="/" className="menu-link">
                                         <div data-i18n="Notifications">Notifications</div>
                                     </a>
                                 </li>
                                 <li className="menu-item">
-                                    <a href="app-user-view-connections.html" className="menu-link">
+                                    <a href="/" className="menu-link">
                                         <div data-i18n="Connections">Connections</div>
                                     </a>
                                 </li>
@@ -129,18 +129,18 @@ function Menu() {
                     </ul>
                 </li>
                 <li className="menu-item">
-                    <a href="#" className="menu-link menu-toggle">
+                    <a href="/" className="menu-link menu-toggle">
                         <i className="menu-icon tf-icons ti ti-settings" />
                         <div data-i18n="Roles & Permissions">Roles &amp; Permissions</div>
                     </a>
                     <ul className="menu-sub">
                         <li className="menu-item">
-                            <a href="app-access-roles.html" className="menu-link">
+                            <a href="/" className="menu-link">
                                 <div data-i18n="Roles">Roles</div>
                             </a>
                         </li>
                         <li className="menu-item">
-                            <a href="app-access-permission.html" className="menu-link">
+                            <a href="/" className="menu-link">
                                 <div data-i18n="Permission">Permission</div>
                             </a>
                         </li>

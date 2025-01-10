@@ -1,5 +1,3 @@
-import { create } from '@syncfusion/ej2-react-grids';
-
 const getStatus = () => {
     var dataStatus = [
         { id: 1, name: 'Active' },

@@ -5,7 +5,7 @@ function Notification() {
         <li className="nav-item dropdown-notifications navbar-dropdown dropdown me-3 me-xl-1">
             <a
                 className="nav-link dropdown-toggle hide-arrow"
-                href="javascript:void(0);"
+                href="/"
                 data-bs-toggle="dropdown"
                 data-bs-auto-close="outside"
                 aria-expanded="false"
@@ -18,7 +18,7 @@ function Notification() {
                     <div className="dropdown-header d-flex align-items-center py-3">
                         <h5 className="text-body mb-0 me-auto">Notification</h5>
                         <a
-                            href="javascript:void(0)"
+                            href="/"
                             className="dropdown-notifications-all text-body"
                             data-bs-toggle="tooltip"
                             data-bs-placement="top"
@@ -34,7 +34,11 @@ function Notification() {
                             <div className="d-flex">
                                 <div className="flex-shrink-0 me-3">
                                     <div className="avatar">
-                                        <img src={images.avatar} className="h-auto rounded-circle" />
+                                        <img
+                                            src={images.avatar}
+                                            alt={images.avatar}
+                                            className="h-auto rounded-circle"
+                                        />
                                     </div>
                                 </div>
                                 <div className="flex-grow-1">
@@ -43,10 +47,10 @@ function Notification() {
                                     <small className="text-muted">1h ago</small>
                                 </div>
                                 <div className="flex-shrink-0 dropdown-notifications-actions">
-                                    <a href="javascript:void(0)" className="dropdown-notifications-read">
+                                    <a href="/" className="dropdown-notifications-read">
                                         <span className="badge badge-dot" />
                                     </a>
-                                    <a href="javascript:void(0)" className="dropdown-notifications-archive">
+                                    <a href="/" className="dropdown-notifications-archive">
                                         <span className="ti ti-x" />
                                     </a>
                                 </div>
@@ -56,7 +60,7 @@ function Notification() {
                 </li>
                 <li className="dropdown-menu-footer border-top">
                     <a
-                        href="javascript:void(0);"
+                        href="/"
                         className="dropdown-item d-flex justify-content-center text-primary p-2 h-px-40 mb-1 align-items-center"
                     >
                         View all notifications

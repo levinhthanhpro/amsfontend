@@ -3,9 +3,9 @@ import images from '~/assets/images';
 function UserInfo() {
     return (
         <li className="nav-item navbar-dropdown dropdown-user dropdown">
-            <a className="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);" data-bs-toggle="dropdown">
+            <a className="nav-link dropdown-toggle hide-arrow" href="/" data-bs-toggle="dropdown">
                 <div className="avatar avatar-online">
-                    <img src={images.avatar} className="h-auto rounded-circle" />
+                    <img src={images.avatar} alt={images.avatar} className="h-auto rounded-circle" />
                 </div>
             </a>
             <ul className="dropdown-menu dropdown-menu-end">
@@ -14,7 +14,7 @@ function UserInfo() {
                         <div className="d-flex">
                             <div className="flex-shrink-0 me-3">
                                 <div className="avatar avatar-online">
-                                    <img src={images.avatar} className="h-auto rounded-circle" />
+                                    <img src={images.avatar} alt={images.avatar} className="h-auto rounded-circle" />
                                 </div>
                             </div>
                             <div className="flex-grow-1">
@@ -28,7 +28,7 @@ function UserInfo() {
                     <div className="dropdown-divider" />
                 </li>
                 <li>
-                    <a className="dropdown-item" href="pages-profile-user.html">
+                    <a className="dropdown-item" href="/">
                         <i className="ti ti-user-check me-2 ti-sm" />
                         <span className="align-middle">My Profile</span>
                     </a>
@@ -43,7 +43,7 @@ function UserInfo() {
                     <div className="dropdown-divider" />
                 </li>
                 <li>
-                    <a className="dropdown-item" href="auth-login-cover.html" target="_blank">
+                    <a className="dropdown-item" href="/" target="_blank">
                         <i className="ti ti-logout me-2 ti-sm" />
                         <span className="align-middle">Log Out</span>
                     </a>
