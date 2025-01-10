@@ -5,3 +5,5 @@ function AssetType() {
         </div>
     );
 }
+
+export default AssetType;
